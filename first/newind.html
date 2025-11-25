@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Webinar Landing Page</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="newstyle.css">
+
+    <!-- Smooth Scroll -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".scroll-to-form").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    document.getElementById("form-section").scrollIntoView({ behavior: "smooth" });
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <!-- ===============================
+         NAVBAR
+    ================================== -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <!-- Replace logo.png with your actual logo -->
+            <span class="brand-name">AnyTECH</span>
+        </div>
+
+        <button class="nav-btn scroll-to-form">Register Now</button>
+    </nav>
+
+    <!-- ===============================
+         HERO SECTION (Image 1)
+    ================================== -->
+    <section class="hero">
+        <div class="hero-left">
+            <h1>Step for Embracing Tomorrow:<br>
+                <span class="highlight">AI Is Opening New Career Paths,<br>Not Taking Them Away!</span>
+            </h1>
+
+            <p>
+                AI career opportunities are growing exponentially. Explore how AI is<br>
+                creating new job roles and industries, and how you can be part of<br> the 
+                next wave of innovation.
+            </p>
+
+            <div class="info-box">
+                <div class="info"><span class="icon">📅</span> 27 Sep 2025</div>
+                <div class="info"><span class="icon">⏱️</span> 4:00 PM IST</div>
+                <div class="info small"><span class="icon">💻</span> Live Online</div>
+                <div class="info small"><span class="icon">✔</span> 100% Free</div>
+            </div>
+
+            <button class="cta-btn scroll-to-form">Reserve My Free Seat</button>
+        </div>
+
+        <div class="hero-right">
+            <img src="https://i.pinimg.com/1200x/41/fb/bd/41fbbd81758b844c73603ce0786103f7.jpg" alt="Hero Image">
+        </div>
+    </section>
+
+    <!-- ===============================
+         STATS SECTION (Image 2)
+    ================================== -->
+    <section class="stats-section">
+
+        <div class="stats-container">
+            <div class="stat-box">10,000+<br><span>Success Stories</span></div>
+            <div class="stat-box">₹50Cr+<br><span>Revenue Generated</span></div>
+            <div class="stat-box">11+ Years<br><span>Experience</span></div>
+            <div class="stat-box">4.9/5<br><span>Average Rating</span></div>
+        </div>
+
+        <h2 class="section-title">
+            Tired of Job Insecurity? Learn Skills <span class="highlight">That Employers Actually Want</span>
+        </h2>
+
+        <p class="section-desc">
+            AI is revolutionizing the job market, and companies are actively hiring
+            professionals with AI skills. Whether you work in tech, marketing,
+            business, or a non-technical field, learning artificial intelligence
+            is essential for career growth and job security.
+        </p>
+
+        <div class="features">
+            <div class="feature-card"><h3>AI Literacy</h3><p>Build basic AI literacy to stay relevant.</p></div>
+            <div class="feature-card"><h3>Job Security</h3><p>AI skills boost your job security.</p></div>
+            <div class="feature-card"><h3>Future Skills</h3><p>Stay competitive with future-ready skills.</p></div>
+            <div class="feature-card"><h3>Career Growth</h3><p>Use AI expertise to grow faster.</p></div>
+        </div>
+    </section>
+
+    <!-- ===============================
+         FORM SECTION (Image 3)
+    ================================== -->
+    <section class="form-section" id="form-section">
+        <div class="form-box">
+
+            <h2>Hold Your Seat</h2>
+            <div class="form-event-bar">27 Sep 2025 • 4:00 PM IST • Live Online</div>
+
+            <form>
+                <label>Full Name *</label>
+                <input type="text" placeholder="Enter your full name" required>
+
+                <label>WhatsApp Number *</label>
+                <input type="text" placeholder="10-digit number" required>
+
+                <label>Email Address *</label>
+                <input type="email" placeholder="your@email.com" required>
+
+                <button class="cta-btn scroll-to-form">Reserve My Free Seat</button>
+
+                <div class="form-footer">
+                    <span>🔒 100% Privacy Protected</span>
+                    <span>🛡 Zero Spam Promise</span>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+</body>
+</html>
